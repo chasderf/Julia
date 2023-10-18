@@ -1,0 +1,5 @@
+julia> function changeNum()
+       x::Int8 = 10
+       x = "Dog"
+       end
+changeNum (generic function with 1 method)

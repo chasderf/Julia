@@ -1,0 +1,39 @@
+julia> using Printf
+
+julia> using Statistics
+
+julia> s1 = "using some random words"
+"using some random words"
+
+julia> println(length(s1))
+23
+
+julia> println(s1[1])
+u
+
+julia> println(s1[end])
+s
+
+julia> println(s1[1:4])
+usin
+
+julia> s2 = string("Yukiteru", "Amano")
+"YukiteruAmano"
+
+julia> println(s2)
+YukiteruAmano
+
+julia> println("Yuno" * "Gasai")
+YunoGasai
+
+julia> println("Yuno " * "Gasai")
+Yuno Gasai
+
+julia> i3 = 2
+2
+
+julia> i4 = 3
+3
+
+julia> println("$i3 + $i4 = $(i3 + i4)")
+2 + 3 = 5

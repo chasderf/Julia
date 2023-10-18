@@ -1,0 +1,12 @@
+ using Printf
+
+julia> using Statistics
+
+julia> s = 0
+0
+
+julia> s = "dog"
+"dog"
+
+julia> println(s)
+dog

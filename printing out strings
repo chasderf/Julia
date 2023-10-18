@@ -1,0 +1,20 @@
+julia> using Printf
+
+julia> using Statistics
+
+julia> s1 = "using some random words"
+"using some random words"
+
+julia> println(length(s1))
+23
+
+julia> println(s1[1])
+u
+
+julia> println(s1[end])
+s
+
+julia> println(s1[1:4])
+usin
+
+julia>
